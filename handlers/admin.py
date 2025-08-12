@@ -28,7 +28,7 @@ router = Router()
 @require_admin
 async def admin_panel(message: Message):
     await message.answer(GREETING_ADMIN, reply_markup=start_admin())
-    log_action('Admin', message.from_user, " opened admin-panel")
+    log_action('Admin', message.from_user, "opened admin-panel")
 
 
 @router.callback_query(F.data == 'product_list')
