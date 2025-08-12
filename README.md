@@ -18,6 +18,7 @@ git clone https://github.com/yourusername/flower_aura_bot.git
 cd flower_aura_bot
 
 2. Создать `.env` файл, пример:
+```python
 BOT_TOKEN='bot_token'
 ADMIN_IDS=000000000,111111111,222222222
 DATABASE_URL=postgresql+asyncpg:/postgres:postgres@db:5432flower_aura_bot
@@ -27,7 +28,7 @@ docker-compose up --build
 
 4. Бот запустится и автоматически применит миграции.
 
-## 5. Git команды для заливки
+## Git команды для заливки
 
 В корне проекта выполни:
 
