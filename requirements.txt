@@ -1,0 +1,6 @@
+aiogram==3.0.0b7
+python-dotenv
+psycopg2-binary
+asyncpg
+sqlalchemy>=2.0.0
+alembic
