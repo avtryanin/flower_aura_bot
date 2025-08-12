@@ -22,6 +22,7 @@ cd flower_aura_bot
 BOT_TOKEN='bot_token'
 ADMIN_IDS=000000000,111111111,222222222
 DATABASE_URL=postgresql+asyncpg:/postgres:postgres@db:5432flower_aura_bot
+```
 
 3. Запустить Docker Compose:
 docker-compose up --build
