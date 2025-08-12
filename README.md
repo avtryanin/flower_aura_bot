@@ -20,7 +20,7 @@ cd flower_aura_bot
 ```
 
 2. Создать `.env` файл, пример:
-```python
+```env
 BOT_TOKEN='bot_token'
 ADMIN_IDS=000000000,111111111,222222222
 DATABASE_URL=postgresql+asyncpg:/postgres:postgres@db:5432flower_aura_bot
