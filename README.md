@@ -14,8 +14,10 @@
 ## Запуск
 
 1. Клонировать репозиторий:
+```bash
 git clone https://github.com/yourusername/flower_aura_bot.git
 cd flower_aura_bot
+```
 
 2. Создать `.env` файл, пример:
 ```python
@@ -25,7 +27,9 @@ DATABASE_URL=postgresql+asyncpg:/postgres:postgres@db:5432flower_aura_bot
 ```
 
 3. Запустить Docker Compose:
+```bash
 docker-compose up --build
+```
 
 4. Бот запустится и автоматически применит миграции.
 
